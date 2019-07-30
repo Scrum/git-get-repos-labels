@@ -21,5 +21,5 @@ export default ({owner, repo, token}: options) => graphqlGot('https://api.github
       }
     }`, 
     token
-  }).then(({body: {repository: {labels: {edges: {node}}}}}) => node);
+  }).then(({body: {repository: {labels: {edges}}}}) => edges.map(({node}) => node));
 
