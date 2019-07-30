@@ -1,5 +1,5 @@
 # git-get-repos-labels
-> A iny helper to get a list of labels from the github repository
+> A tiny helper to get a list of labels from the github repository
 
 [![Travis Build Status](https://img.shields.io/travis/Scrum/git-get-repos-labels/master.svg?style=flat-square&label=unix)](https://travis-ci.org/Scrum/git-get-repos-labels)[![Coveralls status](https://img.shields.io/coveralls/Scrum/git-get-repos-labels.svg?style=flat-square)](https://coveralls.io/r/Scrum/git-get-repos-labels)
 
