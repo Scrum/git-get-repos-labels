@@ -12,12 +12,12 @@ npm install git-get-repos-labels
 ```js
 import gitGetReposLabels from 'git-get-repos-labels';
 
-gitGetReposLabels('scrum', 'slims', '59bd8d5eb1980b7f926f2d106f4f2f0312fdf97f')
+gitGetReposLabels({owner: 'scrum', repo: 'slims', token: '59bd8d5eb1980b7f926f2d106f4f2f0312fdf97f'});
 //=> [{"name": "bug", "color": "d73a4a", "description": "Something isn't working"}, ...]
 ```
 
 ## API
-### gitGetReposLabels(owner, name, token)
+### gitGetReposLabels({owner, repo, token})
  - **owner** - Github owner or organization name.
- - **name** - Repository name.
+ - **repo** - Repository name.
  - **token** - You  Github Personal Token. Grab it from your [Developer settings](https://github.com/settings/developers)
