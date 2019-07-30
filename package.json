@@ -1,5 +1,5 @@
 {
-  "name": "git-repos-labels",
+  "name": "git-get-repos-labels",
   "version": "0.0.0",
   "description": "A iny helper to get a list of labels from the github repository",
   "main": "index.js",

@@ -1,6 +1,6 @@
 import test from 'ava';
-import gitReposLabels from './index';
+import gitGetReposLabels from './index';
 
 test('pkg is function', t => {
-	t.is(typeof gitReposLabels, 'function');
+	t.is(typeof gitGetReposLabels, 'function');
 });
