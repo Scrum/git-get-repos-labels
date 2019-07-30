@@ -2,13 +2,13 @@ import graphqlGot = require('graphql-got');
 
 interface options {
   owner: string,
-  name: string,
+  repo: string,
   token: string
 }
 
-export default ({owner, name, token}: options) => graphqlGot('https://api.github.com/graphql', {
+export default ({owner, repo, token}: options) => graphqlGot('https://api.github.com/graphql', {
     query: `{
-      repository(owner: "${owner}", name: "${name}") {
+      repository(owner: "${owner}", name: "${repo}") {
         labels(last: 100) {
           edges {
             node {
