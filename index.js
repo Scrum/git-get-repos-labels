@@ -1,6 +1,5 @@
 "use strict";
 exports.__esModule = true;
-// <reference path="declarations.d.ts"/>
 var graphqlGot = require("graphql-got");
 exports["default"] = (function (_a) {
     var owner = _a.owner, name = _a.name, token = _a.token;
@@ -12,8 +11,3 @@ exports["default"] = (function (_a) {
         return edges;
     });
 });
-// .then(response => {
-//   // '59bd8d5eb1980b7f926f2d106f4f2f0312fdf97d'
-//   return 
-//   console.log();
-// });

@@ -23,9 +23,3 @@ export default ({owner, name, token}: options) => graphqlGot('https://api.github
     token
   }).then(({response: {body: {repository: {labels: {edges}}}}}) => edges);
 
-// .then(response => {
-//   // '59bd8d5eb1980b7f926f2d106f4f2f0312fdf97d'
-//   return 
-//   console.log();
-// });
-
