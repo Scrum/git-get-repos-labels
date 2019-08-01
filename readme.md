@@ -18,18 +18,18 @@ gitGetReposLabels({owner: 'scrum', repo: 'slims', token: '59bd8d5eb1980b7f926f2d
 ## API
 #### `owner`
 
-Type: `String`<*Required*>  
-Default: ``  
+Type: `String` **`Required`**  
+Default: `undefined`  
 Description: *Github owner or organization name.*
 
 #### `repo`
 
-Type: `String`<*Required*>  
-Default: ``  
+Type: `String` **`Required`**  
+Default: `undefined`  
 Description: *Repository name.*
 
 #### `token`
 
-Type: `String`<*Required*>  
-Default: ``  
+Type: `String` **`Required`**  
+Default: `undefined`  
 Description: *You  Github Personal Token. Grab it from your [Developer settings](https://github.com/settings/developers)*
