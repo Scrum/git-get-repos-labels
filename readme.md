@@ -15,9 +15,21 @@ import gitGetReposLabels from 'git-get-repos-labels';
 gitGetReposLabels({owner: 'scrum', repo: 'slims', token: '59bd8d5eb1980b7f926f2d106f4f2f0312fdf97f'});
 //=> [{"name": "bug", "color": "d73a4a", "description": "Something isn't working"}, ...]
 ```
-
 ## API
-### gitGetReposLabels({owner, repo, token})
- - **owner** - Github owner or organization name.
- - **repo** - Repository name.
- - **token** - You  Github Personal Token. Grab it from your [Developer settings](https://github.com/settings/developers)
+#### `owner`
+
+Type: `String`<*Required*>  
+Default: ``  
+Description: *Github owner or organization name.*
+
+#### `repo`
+
+Type: `String`<*Required*>  
+Default: ``  
+Description: *Repository name.*
+
+#### `token`
+
+Type: `String`<*Required*>  
+Default: ``  
+Description: *You  Github Personal Token. Grab it from your [Developer settings](https://github.com/settings/developers)*
