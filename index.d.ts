@@ -1,7 +1,7 @@
 interface options {
     owner: string;
-    name: string;
+    repo: string;
     token: string;
 }
-declare const _default: ({ owner, name, token }: options) => any;
+declare const _default: ({ owner, repo, token }: options) => any;
 export default _default;
