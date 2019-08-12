@@ -12,6 +12,7 @@ export default ({owner, repo, token}: options) => graphqlGot('https://api.github
         labels(last: 100) {
           edges {
             node {
+              id
               name
               color
               description
