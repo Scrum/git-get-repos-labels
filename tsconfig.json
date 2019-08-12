@@ -1,0 +1,7 @@
+{
+  "compilerOptions": {
+    "declaration": true,
+    "typeRoots": ["./types"]
+  },
+  "include": ["index.ts"]
+}
