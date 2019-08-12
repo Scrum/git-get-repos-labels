@@ -1,6 +1,6 @@
 {
   "name": "git-get-repos-labels",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "A tiny helper to get a list of labels from the github repository",
   "main": "index.js",
   "scripts": {
