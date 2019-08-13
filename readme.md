@@ -13,7 +13,7 @@ npm install git-get-repos-labels
 import gitGetReposLabels from 'git-get-repos-labels';
 
 gitGetReposLabels({owner: 'scrum', repo: 'slims', token: '59bd8d5eb1980b7f926f2d106f4f2f0312fdf97f'});
-//=> [{"name": "bug", "color": "d73a4a", "description": "Something isn't working"}, ...]
+//=> [{id: "MDU6TGFiZWwzODg4NTI4Mzc=", "name": "bug", "color": "d73a4a", "description": "Something isn't working"}, ...]
 ```
 ## API
 #### `owner`
